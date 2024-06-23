@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+.ui-datepicker{
+	z-index: 9999 !important;
+}
+
+.toggleIcon:hover{
+	cursor: pointer;
+}
+
+#login-page{
+	background: url("../img/image.jpg") fixed;
+	background-size: 100% calc(100vh - 0px);
+}
+
+#login-form{
+background: rgba(255, 255, 255, 0.10);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
